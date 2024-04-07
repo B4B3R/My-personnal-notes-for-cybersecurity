@@ -1,1 +1,24 @@
-
+- Domain Name System: 
+- le navigateur a besoin d'une adresse IP pour pouvoir accéder à un site, mais pour nous les adresses IP ne veulent rien dire, c'est pour cela que l'on utilise des noms de domaine et  que le DNS est là pour faire la corrélation entre les noms de domaines et leurs adresses IP
+- Pour information, le DNS a permis de remplacer la gestion d'un fichier hosts [(fichier agissant comme un résolveur DNS local)](https://www.it-connect.fr/le-fichier-hosts-de-windows-cest-quoi/)
+- Vous pouvez utiliser le site https://www.iana.org/domains/root/db
+- qui 
+- Le systeme DNS fonctionne avec la hioérarchie DNS suivante![[dns_root.png]]
+- Architecture DNS
+- ![[hierarchie_dns_principe.png]]
+- Domaine de premier niveau (TLD): ceux juste après la racine
+- Fonctionnement:
+- Lorsque nous nous connectons à notre box et que nous entrons un nom de domaine notre box va agir comme un proxy DNS (elle connait au moins 2 serveurs DNS du fournisseur d'accès internet (FAI))
+	- ETAPES
+		- 1/ Notre ordinateur demande à résoudr un nom DNS
+		- 2/ Cette requête est envoyée par la box au serveur du FAI
+		- 3/ Le serveur DNS du FAI agit seul pour interroger [un des 13 serveurs racines internet](https://fr.wikipedia.org/wiki/Serveur_racine_du_DNS) à la recherche du serveur DNS qui gèrent la zone **fr** --> le serveur DNS qui en a connaissance va renvoyer l'adresse IP correspondante
+		- 4/ Le serveur du FAI va ensuite interroger ce serveur 
+		- 5/ Puis trouver à l'aide de ce dernier celui qui gère **gouv.fr**, etc jusqu'à trouver le nom de domaine recherché
+		- 6/ Une fois que le serveur DNS du FAI a trouvé notre nom de domaine il va la mettre en cache, puis la transmettre à la box internet
+		- 7/ Notre box nous renvoit l'adresse au client DNS du réseau local(soit notre ordinateur)
+	- 2 types de requêtes
+		- - récursive : **l'endroit où un serveur DNS communique avec plusieurs autres serveurs DNS pour rechercher une adresse IP et la renvoyer au client**.
+		- - itérative : **requête où le client communique directement avec chaque serveur DNS impliqué dans la recherche**
+	- lien utile pour les serveurs racines internet (https://www.iana.org/domains/root/servers)
+	- Just for information, I give you a little schema of a subdomain![[subdomain.png]]
