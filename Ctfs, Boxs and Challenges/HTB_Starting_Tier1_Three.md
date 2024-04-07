@@ -13,4 +13,5 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 # Exploitation
 
 + I type the IP address of the target and I modify my host file in my kali machine to access to the toppers.htb site
-+ I use gobuster tool to enumerate the subdomain of a website
++ I use gobuster tool to enumerate the subdomain of a website, the command below:
+	+ └─# gobuster dns -w subdomains-top1mil-20000.txt -d thetoppers.htb
