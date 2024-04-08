@@ -2,7 +2,6 @@
 - le navigateur a besoin d'une adresse IP pour pouvoir accéder à un site, mais pour nous les adresses IP ne veulent rien dire, c'est pour cela que l'on utilise des noms de domaine et  que le DNS est là pour faire la corrélation entre les noms de domaines et leurs adresses IP
 - Pour information, le DNS a permis de remplacer la gestion d'un fichier hosts [(fichier agissant comme un résolveur DNS local)](https://www.it-connect.fr/le-fichier-hosts-de-windows-cest-quoi/)
 - Vous pouvez utiliser le site https://www.iana.org/domains/root/db
-- qui 
 - Le systeme DNS fonctionne avec la hioérarchie DNS suivante![[dns_root.png]]
 - Architecture DNS
 - ![[hierarchie_dns_principe.png]]
