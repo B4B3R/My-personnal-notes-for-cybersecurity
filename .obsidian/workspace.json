@@ -13,13 +13,50 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Ctfs, Boxs and Challenges/HTB_Starting_Tier1_Three.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3e9da8caa1850a50",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Tools/Gobuster.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "09e3e51c23068e1d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "All I know about network/DNS_explained.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cf96a7b28cde4dcb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "All I know about network/Amazon S3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -69,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 241.5
   },
   "right": {
     "id": "45a1b983293d9679",
@@ -85,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/Gobuster.md",
+                "file": "All I know about network/Amazon S3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/Gobuster.md",
+                "file": "All I know about network/Amazon S3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/Gobuster.md"
+                "file": "All I know about network/Amazon S3.md"
               }
             }
           }
@@ -146,10 +183,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ff0db7dfa2d2f113",
+  "active": "cf96a7b28cde4dcb",
   "lastOpenFiles": [
+    "All I know about network/Amazon S3.md",
+    "All I know about network/DNS_explained.md",
+    "Tools/Gobuster.md",
     "Ctfs, Boxs and Challenges/HTB_Starting_Tier1_Three.md",
-    "All I know about network/Apache server.md",
-    "All I know about network/DNS_explained.md"
+    "Programming Languages/SQL.md",
+    "All I know about network/Apache server.md"
   ]
 }
