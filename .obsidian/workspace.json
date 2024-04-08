@@ -1,18 +1,22 @@
 {
   "main": {
-    "id": "33be9dfe3ea0084a",
+    "id": "d31b333aa8297607",
     "type": "split",
     "children": [
       {
-        "id": "ffdc8c862daa1be3",
+        "id": "a26ba3f76012e83f",
         "type": "tabs",
         "children": [
           {
-            "id": "87809f86ae6e9131",
+            "id": "ff0db7dfa2d2f113",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Tools/Gobuster.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -21,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "be7121434a5b1fdb",
+    "id": "08e3f7cc42f4924e",
     "type": "split",
     "children": [
       {
-        "id": "bc3ed7b5851eac0a",
+        "id": "58a6f1028747f0a8",
         "type": "tabs",
         "children": [
           {
-            "id": "a6e4c750545a0257",
+            "id": "7305685f28a2dec8",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -39,7 +43,7 @@
             }
           },
           {
-            "id": "e3f6592829dcc752",
+            "id": "74eff89aa12d49bb",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -54,7 +58,7 @@
             }
           },
           {
-            "id": "b0fe152f0eb796f3",
+            "id": "f0b852061067e147",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -68,19 +72,20 @@
     "width": 300
   },
   "right": {
-    "id": "2a644a6ea05a6bcf",
+    "id": "45a1b983293d9679",
     "type": "split",
     "children": [
       {
-        "id": "e2cecd8688f4ab50",
+        "id": "d658d01089bad5d1",
         "type": "tabs",
         "children": [
           {
-            "id": "d7d3b3b254750082",
+            "id": "9dcb2f338a073d2a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Tools/Gobuster.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,18 +97,19 @@
             }
           },
           {
-            "id": "3380c53108367c00",
+            "id": "cfab300b5f082e0c",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Tools/Gobuster.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "bfbb39976ca7139d",
+            "id": "f3b1a68dad99c3a3",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -114,11 +120,13 @@
             }
           },
           {
-            "id": "e62b5758130f078d",
+            "id": "1132c6c121388caa",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Tools/Gobuster.md"
+              }
             }
           }
         ]
@@ -138,8 +146,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "87809f86ae6e9131",
+  "active": "ff0db7dfa2d2f113",
   "lastOpenFiles": [
-    "HTB_Starting_Tier1_Three.md"
+    "Ctfs, Boxs and Challenges/HTB_Starting_Tier1_Three.md",
+    "All I know about network/Apache server.md",
+    "All I know about network/DNS_explained.md"
   ]
 }
