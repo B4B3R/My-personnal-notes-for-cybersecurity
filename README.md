@@ -1,7 +1,1 @@
-
-    A month ago, I finished all the tier 0 of HackTheBox Starting Point and half of the tier 1 (I stopped at the machine Three)
-    I will store all my notes in this repo and organize each section, if you want you are free to download my notes (do not hesitate to make me pull requests if you have any problem on a notion I address or you find things wrong in my notes). Being a debutant from today I will try to be as active as possible on my github to be able to achieve my goals. If you are still reading this note already thank you and let’s start the adventure.
-
-     I want to be the greatest hacker and for that I will maintain and improve the ratings of this repo day after day and maximize the quality and quantity of information
-
- 
+Je compte laisser ce repo github en public jusqu'à ce que j'obtienne mon rang Hacker sur HackTheBox. Sur ce repo, je vais mettre les section Tools, Programming Languages, All I know about OS et Ctfs,Boxs and Challenges en anglais et les trois autres sections en français. Je suis le B4B3R et je compte me surpasser pour parvenir à devenir un bon débitant dans le domaine de la cybersecurité.
