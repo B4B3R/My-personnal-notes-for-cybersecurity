@@ -6,6 +6,8 @@
 - Architecture DNS
 - ![[hierarchie_dns_principe.png]]
 - Domaine de premier niveau (TLD): ceux juste après la racine
+- TLD (Top Level Domain) est la dernière partie composant votre nom de domaine tel que '.gouv', '.net', '.com'.
+- Il en existe deux types les gTLDs (generic Top Level Domain) qui sont des noms de domaines qui ne dépendent pas de la localisation du site web, ils sont utilisés pour qualifier les noms domaines des entreprises, par exemple “.com”, “.net”, “.biz”, “.info”, “.org”. Comparé aux ccTLDs (country code Top Level Domain) qui sont utilisés pour qualifier des noms de domaines appartenant à un pays (soit une localisation spécifique), par exemple ".my" pour la Malaisie ".ru" pour la Russie, ".fr", etc ... [(si vous avez toujours des difficultés avec ces deux type de TLD)](https://www.webnic.cc/domain-names/difference-between-gtlds-and-cctlds-and-how-to-choose-the-right-one-or-both/)
 - Fonctionnement:
 - Lorsque nous nous connectons à notre box et que nous entrons un nom de domaine notre box va agir comme un proxy DNS (elle connait au moins 2 serveurs DNS du fournisseur d'accès internet (FAI))
 	- ETAPES
@@ -20,4 +22,5 @@
 		- - récursive : **l'endroit où un serveur DNS communique avec plusieurs autres serveurs DNS pour rechercher une adresse IP et la renvoyer au client**.
 		- - itérative : **requête où le client communique directement avec chaque serveur DNS impliqué dans la recherche**
 	- lien utile pour les serveurs racines internet (https://www.iana.org/domains/root/servers)
-	- Just for information, I give you a little schema of a subdomain![[subdomain.png]]
+	- Just for information, I give you a little schema of a subdomain
+	- ![[subdomain.png]]
