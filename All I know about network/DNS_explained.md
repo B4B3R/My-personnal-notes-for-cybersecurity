@@ -24,3 +24,5 @@
 	- lien utile pour les serveurs racines internet (https://www.iana.org/domains/root/servers)
 	- Just for information, I give you a little schema of a subdomain
 	- ![[subdomain.png]]
+- A subdomain is a section of website as hackthebox.com and ctf.hackthebox.com
+- It's possible for one server handle multiple subdomains. This is accomplished via "host-based routing", or "virtual host routing".
