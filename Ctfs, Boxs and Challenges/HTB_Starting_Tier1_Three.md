@@ -16,4 +16,10 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 + I use gobuster tool to enumerate the subdomain of a website, the command below:
 	+ └─# gobuster dns -w subdomains-top1mil-20000.txt -d thetoppers.htb
 + With that box I have to learn how I can use the gobuster tool to do a 'full' enumeration of a web site (if we don't want to go to the Tools folder and read the note about gobuster read that https://abrictosecurity.com/gobuster-directory-enumerator-cheat-sheet/)
-+ 
++ I configure my aws service with : `aws configure`
++  list all of the S3 buckets hosted by the server by using the ls command.
+We can also use the ls command to list objects and common prefixes under the specified bucket.
+aws configure
+aws --endpoint=http://s3.thetoppers.htb s3 ls
+
+https://www.youtube.com/watch?v=sV9M4LKKT9s (I need to watch this video because the subdomain doesn't  exist)
