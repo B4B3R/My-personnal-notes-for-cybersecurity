@@ -11,15 +11,26 @@
             "id": "9d3fe3368e944877",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "All I know about network/DNS/dns_root.png"
+              }
+            }
+          },
+          {
+            "id": "271a89cc46faa45d",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Ctfs, Boxs and Challenges/HTB_Starting_Tier1_Three.md",
+                "file": "All I know about network/HTTP/HTTP_explained.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,6 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "All I know about network/HTTP/HTTP_explained.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,6 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "All I know about network/HTTP/HTTP_explained.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "All I know about network/HTTP_explained.md"
+                "file": "All I know about network/HTTP/HTTP_explained.md"
               }
             }
           }
@@ -144,13 +157,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7305685f28a2dec8",
+  "active": "271a89cc46faa45d",
   "lastOpenFiles": [
+    "All I know about network/DNS/dns_root.png",
+    "All I know about network/HTTP/HTTP_explained.md",
+    "client_serveur_requete.jpg",
+    "All I know about network/HTTP/client_serveur_requete.jpg",
+    "All I know about network/DNS/DNS_explained.md",
+    "All I know about network/subdomain.png",
+    "All I know about network/DNS",
+    "All I know about network/DNS/hierarchie_dns_principe.png",
+    "All I know about network/HTTP",
+    "HTTP.md",
     "Ctfs, Boxs and Challenges/HTB_Starting_Tier1_Bike Our first true machine to do.md",
     "Ctfs, Boxs and Challenges/HTB_Starting_Tier1_Three.md",
     "Ctfs, Boxs and Challenges/HTB_Starting_Tier1_Ignition.md",
-    "All I know about network/HTTP_explained.md",
-    "All I know about network/DNS_explained.md",
     "Tools/awscli.md",
     "Tools/Gobuster.md",
     "All I know about network/Amazon S3.md",
