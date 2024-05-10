@@ -8,16 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9d3fe3368e944877",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "All I know about network/DNS/dns_root.png"
-              }
-            }
-          },
-          {
             "id": "271a89cc46faa45d",
             "type": "leaf",
             "state": {
@@ -29,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -159,10 +148,10 @@
   },
   "active": "271a89cc46faa45d",
   "lastOpenFiles": [
-    "All I know about network/DNS/dns_root.png",
-    "All I know about network/HTTP/HTTP_explained.md",
-    "client_serveur_requete.jpg",
     "All I know about network/HTTP/client_serveur_requete.jpg",
+    "All I know about network/HTTP/HTTP_explained.md",
+    "All I know about network/HTTP/client_serveur_requete 1.jpg",
+    "All I know about network/DNS/dns_root.png",
     "All I know about network/DNS/DNS_explained.md",
     "All I know about network/subdomain.png",
     "All I know about network/DNS",
